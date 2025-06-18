@@ -1,4 +1,4 @@
-Recibe una lista de títulos de películas.
+Recibe una lista de títulos de películas en inglés.
 
 Para cada título:
 
