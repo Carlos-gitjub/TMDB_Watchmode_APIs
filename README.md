@@ -1,3 +1,5 @@
+Consume las APIs de TMDB y Watchmode.
+
 Recibe una lista de títulos de películas en inglés.
 
 Para cada título:
