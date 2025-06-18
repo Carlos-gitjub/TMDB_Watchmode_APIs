@@ -6,7 +6,6 @@ import json
 TMDB_API_KEY = ""
 WATCHMODE_API_KEY = ""
 REGION = "ES"
-PRECIO_SUBSCRIPCION = 10.0
 
 # Lista de películas
 peliculas = [
@@ -89,6 +88,6 @@ for nombre in peliculas:
             "buy": "Compra"
         }.get(s["type"], s["type"])
 
-        precio = "(suscripción)" if s["type"] == "sub" else f"{s['price']} €"
+        precio = "(precio suscripción)" if s["type"] == "sub" else f"{s['price']} €"
         print(f"  - {s['name']}: {tipo} | {s['format']} | {precio}")
     print()
